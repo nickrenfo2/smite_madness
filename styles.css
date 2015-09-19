@@ -1,0 +1,129 @@
+body {
+    padding:0px;
+    margin:0px;
+    font-size:12pt;
+    color:#131313;
+}
+
+#outerBodyWrapper {
+    padding-top:20px;
+}
+
+#bodyWrapper {
+    /*height:100%;*/
+    background-color: white;
+}
+
+#topMenu {
+    height:48px;
+    background-color:lightgray;
+}
+
+.topMenuIcon {
+    font-size: 24px;
+    padding: 12px;
+}
+
+#leftMenu {
+    width:200px;
+    /*background-color:#d9ecff;*/
+    border-right:1px solid #131313;
+    float:left;
+    height:100%;
+    white-space: nowrap;
+}
+
+.leftMenuItem {
+    background-color:aliceblue;
+    margin-top:2px;
+}
+
+#innerBodyWrapper {
+    height:100%;
+    width: calc(100% - 225px);
+    float:left;
+    transition: width .5s;
+    padding: 10px;
+}
+
+.wideBody {
+    width: 100% !important;
+}
+
+#madnessButton {
+    width:150px;
+    margin:auto;
+    background-color:#afd4ff;
+    font-size:24px;
+    text-shadow: 1px 2px #dea7a7;
+    font-family: Cinzel;
+    font-weight: 700;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#godSelect {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    padding: 2px;
+    margin:0px;
+    clear:both;
+}
+
+.godSelectOption {
+    width: 24px;
+    height: 24px;
+    margin:3px;
+    background-color: red;
+    transition: opacity .3s;
+}
+
+#selectallgods, #selectnogods {
+	float:right;
+    margin:2px;
+}
+
+#madnessOptionSelect {
+	clear:both;
+}
+
+.madnessOption {
+	background-color:red;
+    transition: opacity .3s;
+    width:150px;
+    margin: 2px auto;
+}
+
+.deselected {
+    opacity: .5;
+}
+
+.clickable {
+    cursor: pointer
+}
+
+.textMassive {
+    font-size: 32px;
+    text-shadow: 1px 2px #dea7a7;
+    font-family: Cinzel;
+    font-weight: 900;
+}
+
+#log {
+    color:red;
+}
+
+.pantheon {
+	
+}
